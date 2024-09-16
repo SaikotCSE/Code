@@ -30,10 +30,10 @@ void QuickSort(int Arr[], int low, int high){
 }
 int main(){
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    cout<<"Enter the array size: ";
+    cout<<"Enter the array size: "<<flush;
     int n; cin>>n;
     int Arr[n];
-    cout<<"Enter the array: ";
+    cout<<"Enter the array: "<<flush;
     for(int i=0; i<n; i++) cin>>Arr[i];
     QuickSort(Arr, 0, n-1);
     cout<<"Sorted Array: ";
